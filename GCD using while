@@ -1,0 +1,10 @@
+def gcd(m,n):
+  i=min(m,n)
+  while i>0:
+    if(m%i)==0 and (n%i)==0:
+      return(i)
+    else:
+      i=i-1
+n1=int(input("enter 1st element:"))
+n2=int(input("enetr 2nd element:"))
+print(gcd(n1,n2))
