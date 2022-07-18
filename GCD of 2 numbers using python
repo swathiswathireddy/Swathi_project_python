@@ -1,0 +1,8 @@
+def gcd(m,n):
+    if m%n==0:
+        return n
+    else:
+        return gcd(n,m%n)
+n1=int(input("enetr the first number:"))
+n2=int(input("enter the second number:"))
+print(gcd(n1,n2))
